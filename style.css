@@ -1,28 +1,54 @@
+/* Основные стили */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
     line-height: 1.6;
 }
 
-h1 {
-    color: #333;
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 
-nav a {
-    margin-right: 15px;
+header h1, header h2 {
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav .button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
     text-decoration: none;
-    color: blue;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
 }
 
-form label {
-    display: block;
-    margin: 10px 0 5px;
+nav .button:hover {
+    background-color: #0056b3;
 }
 
-form input {
-    padding: 5px;
-    margin-bottom: 10px;
-    width: 100%;
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 800px;
 }
 
 table {
@@ -38,4 +64,29 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: left;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
 }

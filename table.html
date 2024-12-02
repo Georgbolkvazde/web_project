@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Таблица данных</title>
+    <title>Datu tabulas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Таблица данных</h1>
-    <table id="data-table">
-        <thead>
-            <tr>
-                <th>Имя</th>
-                <th>Email</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Данные будут добавляться через JavaScript -->
-        </tbody>
-    </table>
+    <header>
+        <h1>Datu tabulas</h1>
+    </header>
+    <main>
+        <p id="record-count">Ieraksti: 0</p>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Vārds</th>
+                    <th>E-pasts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dati tiks pievienoti ar JavaScript -->
+            </tbody>
+        </table>
+        <button id="clear-data" class="button">Notīrīt datus</button>
+    </main>
+    <footer>
+        <p>© 2024 Tavs projekts. Visas tiesības aizsargātas.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
