@@ -8,17 +8,24 @@
 </head>
 <body>
     <header>
-        <h1>Laipni lūdzam vietnē!</h1>
-        <img src="images/photo.jpg" alt="Vietnes galvenais attēls" class="main-photo">
-        <h2 id="greeting"></h2>
+        <h1 class="fade-in">Laipni lūdzam vietnē!</h1>
+        <h2 id="greeting" class="fade-in"></h2>
         <nav>
-            <a href="form.html" class="button">Forma</a>
-            <a href="table.html" class="button">Datu tabulas</a>
+            <a href="index.html" class="button active fade-in">Sākumlapa</a>
+            <a href="form.html" class="button fade-in">Forma</a>
+            <a href="table.html" class="button fade-in">Datu tabulas</a>
         </nav>
     </header>
+    <main>
+        <p class="description fade-in">
+            Šī ir vienkārša vietne, kurā varat aizpildīt formu un skatīt ievadītos datus tabulā.
+        </p>
+    </main>
     <footer>
         <p>© 2024 Tavs projekts. Visas tiesības aizsargātas.</p>
     </footer>
+    <button id="scroll-to-top" class="scroll-top">⬆</button>
+
     <script src="script.js"></script>
 </body>
 </html>

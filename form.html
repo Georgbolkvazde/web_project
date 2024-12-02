@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="index.html" class="back-arrow">⬅ Atpakaļ uz sākumlapu</a>
+    <a href="index.html" class="back-arrow fade-in">⬅ Atpakaļ uz sākumlapu</a>
     <header>
-        <h1>Aizpildiet formu</h1>
-        <img src="images/photo.jpg" alt="Formas attēls" class="main-photo">
+        <h1 class="fade-in">Aizpildiet formu</h1>
     </header>
     <main>
-        <form id="data-form">
+        <form id="data-form" class="fade-in">
             <label for="name">Vārds:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">E-pasts:</label>
@@ -24,6 +23,7 @@
     <footer>
         <p>© 2024 Tavs projekts. Visas tiesības aizsargātas.</p>
     </footer>
+    <button id="scroll-to-top" class="scroll-top">⬆</button>
     <script src="script.js"></script>
 </body>
 </html>

@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="index.html" class="back-arrow">⬅ Atpakaļ uz sākumlapu</a>
+    <a href="index.html" class="back-arrow fade-in">⬅ Atpakaļ uz sākumlapu</a>
     <header>
-        <h1>Datu tabulas</h1>
-        <img src="images/photo.jpg" alt="Tabulas attēls" class="main-photo">
+        <h1 class="fade-in">Datu tabulas</h1>
     </header>
     <main>
-        <p id="record-count">Ieraksti: 0</p>
-        <table id="data-table">
+        <p id="record-count" class="fade-in">Ieraksti: 0</p>
+        <table id="data-table" class="fade-in">
             <thead>
                 <tr>
                     <th>Vārds</th>
@@ -25,11 +24,12 @@
                 <!-- Dati tiks pievienoti ar JavaScript -->
             </tbody>
         </table>
-        <button id="clear-data" class="button">Notīrīt datus</button>
+        <button id="clear-data" class="button fade-in">Notīrīt datus</button>
     </main>
     <footer>
         <p>© 2024 Tavs projekts. Visas tiesības aizsargātas.</p>
     </footer>
+    <button id="scroll-to-top" class="scroll-top">⬆</button>
     <script src="script.js"></script>
 </body>
 </html>
